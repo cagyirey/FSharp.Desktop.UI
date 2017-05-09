@@ -1,10 +1,12 @@
 source https://nuget.org/api/v2
 
+framework: auto-detect
+
 nuget FAKE
 nuget FSharp.Formatting
 nuget Nuget.CommandLine
 nuget Castle.Core
 nuget FSharp.Data
-nuget Rx-Main
+nuget System.Reactive
 nuget xunit ~> 1
 nuget xunit.extensions ~> 1
